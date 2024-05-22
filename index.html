@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="calendar">
+        <div>
+            <label for="from">От:</label>
+            <input id="from" type="date">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="to">До:</label>
+            <input id="to" type="date">
+        </div>
+
+        <br>
+
+        <button type="button" onclick="handleCalendarSubmit()">Отправить данные</button>
+    </form>
+
+    <br/>
+
+    <div>
+        <span>Итог: </span><span id="total"></span>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
